@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import json, request
+from pprint import pprint
+import sys
+
+r = request.get(url='http://pokeapi.co/api/v1/pokemon/' + sys.argv[1])
+data = json.loads(r.text)
+
+#pprin(data)
+print("Name: " + data["name"])
+print("Speed: " + str(data["speed"]))
+print("Defense: " +str(data["defense"]))
+for move in data["moves"]:
+  print(move["name"], end=", "

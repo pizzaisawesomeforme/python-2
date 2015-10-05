@@ -1,10 +1,10 @@
 {
-  "abilities" : [ Torret, Rain_Dish],
+  "abilities" : ["Torret", "Rain_Dish"],
   "description": "",
-  "attack": 83,
-  "catch_rate": 45,
-  "defense": 100,
-  "ev_yield": 3 special_defense,,
+  "attack": "83",
+  "catch_rate": "45",
+  "defense": "100",
+  "ev_yield": "3 special_defense",
   "evoloutions": [
     {
      "level": 36
